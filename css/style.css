@@ -19,7 +19,7 @@ header {
     background-color: #0080ed;
 }
 
-header .container{
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +28,7 @@ header .container{
     margin: auto;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
 }
 
@@ -49,20 +49,21 @@ header nav ul li a:hover {
     background: rgba(255,255,255,0.15);
 }
 
-header .container img{
+header .container img {
     height: 30px;
 }
 
-#checkbox-menu{
+#checkbox-menu {
     display:none
 }
 
 /* MAIN */
+
 main {
     margin-bottom: 100px;
 }
 
-main .container-main{
+main .container-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,14 +71,14 @@ main .container-main{
     margin: 100px auto 0px auto;
 }
 
-h2{
+h2 {
     color: rgb(0,0,0);
     font-size: 45px;
     line-height: 50px;
     font-weight: bold;
 }
 
-h3{
+h3 {
     color: rgb(131,131,131);
     font-size: 20px;
     line-height: 28px;
@@ -88,7 +89,7 @@ form {
     margin-top: 20px;
 }
 
-form input {
+form input, select, textarea {
     width: 380px;
     padding-left: 15px;
     font-size: 18px;
@@ -97,6 +98,7 @@ form input {
     border-radius: 20px;
     border: 2px solid #0080ed;
 }
+
 form [type="submit"] {
     background-color: #0080ed;
     color: white;
@@ -105,6 +107,7 @@ form [type="submit"] {
     font-size: 16px;
     height: 40px;
 }
+
 form [type="submit"]:hover {
     cursor: pointer;
     background-color: rgba(0,128,237,0.75);
@@ -130,14 +133,14 @@ a {
     grid-gap: 20px;
 }
 
-.text--medium{
+.text--medium {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     color: rgb(187,185,185);
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -146,7 +149,7 @@ a {
     border-radius: 10px;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-7px);
 }
 
@@ -159,7 +162,7 @@ a {
     height: 225px;
 }
 
-.image img{
+.image img {
     position: absolute;
     border-radius: 10px;
     top: 50%;
@@ -168,20 +171,29 @@ a {
 }
 
 .content {
-    margin:20px;
+    margin: 20px;
 }
 
-.title{
-    margin-bottom:0px;
+.title {
+    margin-bottom: 0px;
 }
 
 .desafio {
-    font-size: 100px;
+    /*font-size: 1px;*/
     display: flex;
-    justify-content: center;
-    height:400px;
-    align-items: center;
-    border: 1px solid black;
+    justify-content: left;
+    height: 400px;
+    align-items: right;
+    border: 2px solid #0080ed;
     margin: 100px auto;
     max-width: 980px;
+    padding: 10px;
+    background-image: url(../images/unicornio.webp);
+}
+
+.contato {
+    display: flex;
+   
+    align-items: right;
+    flex-direction: column;
 }

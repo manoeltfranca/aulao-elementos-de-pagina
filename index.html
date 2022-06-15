@@ -120,8 +120,23 @@
             </div>
         </div>
     </section>
-    <section id="form">
-        <div class="desafio">Desafio</div>
+    <section id="form">    
+        <div class="desafio">
+            <form action="/formulario-contato" method="post">
+                <div class="contato">
+                    <input type="texto" id="nome2" name="nome_usuario" placeholder="Nome">
+                    <input type="email" id="email2" name="email_usuario" placeholder="E-mail">
+                    <select name="feedback" id="select">
+                        <option value="" selected disabled>Sua Opção</option>
+                        <option value="Elogio">Elogio</option>
+                        <option value="Sugestao">Sugestão</option>
+                        <option value="reclamacao">Reclamação</option>
+                    </select>
+                    <textarea id="texto" name="texto_usuario" placeholder="Seu comentário"></textarea>
+                    <input type="submit" value="Enviar" />
+                </Div>
+            </form>
+        </div>
     </section>
 </body>
 
